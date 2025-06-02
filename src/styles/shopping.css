@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.shopping {background-color: rgb(255, 245, 232);}
+.shopping > h2 {font-size: 20px; margin-bottom: 15px;}
+.shopping > h2 > span {font-weight: bold;}
+.shopping > button {border: 1px solid #5a5a5a; background-color: rgb(255, 245, 232); color: #5a5a5a; padding: 5px 40px; transition: 0.3s;}
+.shopping > button:hover {background-color: #5a5a5a; color: #fff;}
+.product {padding: 30px 10px;}
+.p_img > img {border-radius: 15px 15px 0px 0px;}
+.p_info {text-align: left; padding-left: 30px;}
+.p_info > p {font-size: 14px;}
+.p_info > p:first-child {margin-bottom: 10px;}
+.p_info > p:nth-child(2) {font-weight: bold;}
+.price {color: rgb(255, 94, 0); font-weight: bold; font-size: 20px !important; margin: 30px 0px 90px 0px;}
+.price > span {font-weight: lighter !important; font-size: 14px !important;}
+.p_info > ul {display: flex; padding: 0;}
+.p_info > ul > li {display: inline-block; width: 35px; height: 35px; background-color: rgb(189, 34, 34); margin-right: 10px; text-align: center; border-radius: 50%;}
+.p_info > ul > li > img {width: 80%; margin-top: 4px; margin-left: -2px;}

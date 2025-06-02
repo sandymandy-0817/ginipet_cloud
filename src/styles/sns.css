@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.sns {background-color: #e9e6e3;}
+.title {display: flex; width: 40%; margin: 0 auto; margin-top: 30px;}
+.title > img {width: 17% !important; margin-right: 10px;}
+.title > h2 {font-size: 24px;}
+.title > h2 > span {font-weight: bold;}
+.sns > p {margin-bottom: 20px;}
+
+.content1, .content2 {display: flex;}
+.content1 > img, .content2 > img {display: flex; width: 48%;}
+.content1 {margin-bottom: 20px;}

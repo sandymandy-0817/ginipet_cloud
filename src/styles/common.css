@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+body, a {font-family: "Noto Sans KR", '굴림체', sans-serif; font-size: 0.75em; color: #5a5a5a;}
+a {text-decoration: none;}
+ul, li {list-style: none;}

@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+.login {color: #333; margin-bottom: 30px;}
+.login > h2 {background-color: #e4e4e4; font-size: 20px; font-weight: bold; text-align: center; line-height: 60px;}
+.login_box {width: 80%; margin: 0 auto;}
+.check_m {display: flex; padding: 15px 0px; margin-bottom: 10px;}
+.login_box > form > p {margin-bottom: 20px;}
+.check_m > p > label {font-weight: bold; margin-right: 40px;}
+.login_box > form > p > input[type=text], .login_box > form > p > input[type=password] {width: 100%; border: 1px solid #ccc; padding: 15px 10px;}
+.login_box > form > p > input[type=checkbox] {padding: 5px;}
+.login_box > form > button {background-color: #f00; color: #fff; border: none; width: 105%; padding: 10px 40px; font-size: 16px;}
+.login_box > ul {width: 70%; display: flex; justify-content: space-evenly; margin: 0 auto; padding: 10px 0px;}
+.login_box > ul > li {font-size: 16px; font-weight: bold;}
+.login_box > ul > li > a {display: inline-block; padding: 10px 5px;}
+.login_box > ul > li > a::after {content: ""; display: inline-block; border-right: 1px solid #ccc; height: 12px; vertical-align: middle; margin-left: 18px;}
+
+.signin_btn {text-align: center; padding: 10px 0px;}
+.signin_btn > h3 {font-size: 16px; font-weight: bold; margin-bottom: 10px;}
+.signin_btn > p {color: #7c7c7c !important; margin-bottom: 20px;}
+.signin_btn > button {background-color: #fff; color: #333; border: 1px solid #ccc; padding: 8px 40px; width: 105%; font-size: 16px;}
